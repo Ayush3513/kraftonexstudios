@@ -12,7 +12,7 @@ Version: 1.0.0
   --body: #fff;
   --black: #000;
   --white: #fff;
-  --theme: #59D2F3;
+  --theme: #2563eb;
   --theme2: #5AE70E;
   --theme3: #A80EE6;
   --header: #17012C;
@@ -6787,6 +6787,7 @@ input.main-search-input::placeholder {
 @media (max-width: 767px) {
   .section-title-area {
     margin-bottom: 0;
+    padding-top: 20px;
   }
 }
 .section-title-area .section-title {
