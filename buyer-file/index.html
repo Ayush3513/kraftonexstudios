@@ -88,6 +88,7 @@
     padding-bottom: 0 !important;
     margin-bottom: 0 !important;
     margin: 10px !important;
+    margin-top: 50px !important;
   }
   .footer-section {
     padding-top: 8px !important;
@@ -95,7 +96,7 @@
   }
 }
 .footer-section {
-  margin-top: -200px !important;
+  margin-top: -150px !important;
 }
 /* Make About Us and Our Features headings much bigger responsively */
 .section-title h6 {
@@ -120,6 +121,23 @@
   .section-title h6 {
     font-size: 1rem !important;
   }
+}
+@media (max-width: 600px) {
+  #contact {
+    margin-top: 50px !important;
+  }
+}
+.footer-section .exolax-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.footer-section .exolax-text img {
+  display: block;
+  margin: 0 auto;
+  width: 85vw;
+  height: auto;
 }
 </style>
     </head>
@@ -180,9 +198,7 @@
         </div>
 
         <!-- Back To Top Start -->
-        <button id="back-top" class="back-to-top">
-            <i class="fa-regular fa-arrow-up"></i>
-        </button>
+        
 
         <!--<< Mouse Cursor Start >>-->  
         <div class="mouse-cursor cursor-outer"></div>
@@ -522,7 +538,7 @@
                             </ul>
                         </div>
                         <!-- Add Kraftonexstudios Intro Call Form under the features section -->
-                        <div id="contact" style="max-width:900px; margin:80px auto 0 auto; padding:8px 0 0 0;">
+                        <div id="contact" style="max-width:900px; margin:200px auto 0 auto; padding:8px 0 0 0;">
                             <h2 style="font-family:'Teko',sans-serif;font-size:64px;font-weight:700;text-transform:uppercase;color:#17012C;text-align:center;margin-bottom:32px;letter-spacing:2px;">Contact Us</h2>
                             <iframe
                                 src="https://api.leadconnectorhq.com/widget/form/Sz0epCPYKNzXBOihigsx"
@@ -653,5 +669,10 @@
                 });
             });
         </script>
+        <script 
+  src="https://widgets.leadconnectorhq.com/loader.js"  
+  data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" 
+  data-widget-id="6874c8a381758b6a973c0253"   > 
+</script>
     </body>
 </html>
